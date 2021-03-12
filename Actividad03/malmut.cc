@@ -81,7 +81,7 @@ void visualizeArray(vector<vector<int> > a) {
 int main(int argc, char *argv[])
 {
     vector<vector<int> > a, b, mult;
-    int dimensions = atoi(argv[1]);
+    int dimensions = 1000;
     a = initializeMatrix(dimensions);
     b = initializeMatrix(dimensions);
     Timer t;
